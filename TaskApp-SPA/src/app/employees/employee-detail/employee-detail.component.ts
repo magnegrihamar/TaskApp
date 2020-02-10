@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Employee } from 'src/app/_models/employee';
+import { Patient } from 'src/app/_models/patient';
 import { EmployeeService } from 'src/app/_services/employee.service';
 import { ActivatedRoute } from '@angular/router';
+import { PatientService } from '../../_services/patient.service';
 
 
 @Component({
@@ -11,11 +13,18 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class EmployeeDetailComponent implements OnInit {
   employee: Employee;
+  patients: Patient[];
+  patient: Patient;
+  
+  
 
-  constructor( private employeeService: EmployeeService, private route: ActivatedRoute ) { }
+  patientList: Array<{ patientId: number, patientName: string }> = [];
+ 
+  constructor( private employeeService: EmployeeService, private patientService: PatientService, private route: ActivatedRoute ) { }
 
   ngOnInit() {
     this.loadEmployee();
+    this.loadPatients();
   }
 
   loadEmployee() {
@@ -24,4 +33,16 @@ export class EmployeeDetailComponent implements OnInit {
     });
   }
 
+  loadPatients() {
+      //this.patientService.getPatients().subscribe((patients: Patient[]) => {
+      //  this.patients = patients;
+      this.patientService.getPatient(+this.route.snapshot.params['id']).subscribe((patient: Patient) => {
+        this.patient = patient;
+
+        if(this.patient.employeeID == this.employee.id )
+        {
+          //this.patients.push( this.patient.employeeID );
+        }
+    });
+  }
 }

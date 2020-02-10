@@ -26,10 +26,12 @@
               
         </div>
         <div class="col-sm-8">
-          Let patients come here!
-          <p>{{employee?.patients.pop().id}}
-            <p>{{employee?.patients }}</p>
-
+          <strong>Pasients:</strong>
+              
+          <div *ngFor="let patient of patients" class="col-lg-2 col-md-3 col-sm-6">
+            <app-patient-card [patient]="patient"></app-patient-card>
+          </div>
+      
         </div>
     </div>
 </div>

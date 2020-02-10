@@ -12,6 +12,7 @@ import { PatientListComponent } from './employees/patient-list/patient-list.comp
 import { appRoutes } from './routes';
 import { EmployeeCardComponent } from './employees/employee-card/employee-card.component';
 import { EmployeeDetailComponent } from './employees/employee-detail/employee-detail.component';
+import { PatientCardComponent } from './employees/patient-card/patient-card.component';
 
 @NgModule({
    declarations: [
@@ -20,6 +21,7 @@ import { EmployeeDetailComponent } from './employees/employee-detail/employee-de
       NavComponent,
       EmployeeListComponent,
       PatientListComponent,
+      PatientCardComponent,
       EmployeeCardComponent,
       EmployeeDetailComponent,
      // TimeAgoPipe

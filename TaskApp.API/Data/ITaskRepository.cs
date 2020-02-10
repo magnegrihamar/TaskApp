@@ -9,5 +9,7 @@ namespace TaskApp.API.Data {
         Task<bool> SaveAll();
         Task<Employee> GetEmployee(int id);
         Task<IEnumerable<Employee>> GetEmployees();
+        Task<Patient> GetPatient(int id);
+        Task<IEnumerable<Patient>> GetPatients();
     }
 }

@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Employee } from '../../_models/employee';
-import { Patient } from '../../_models/patient';
-import { EmployeeService } from '../../_services/employee.service';
+import { PatientService } from '../../_services/patient.service';
+import { Patient } from 'src/app/_models/patient';
+
+
 
 @Component({
   selector: 'app-patient-list',
@@ -9,20 +11,19 @@ import { EmployeeService } from '../../_services/employee.service';
   styleUrls: ['./patient-list.component.css']
 })
 export class PatientListComponent implements OnInit {
-  employees: Employee[];
   patients: Patient[];
+  
 
-  constructor( private employeeService: EmployeeService ) { }
+  constructor( private patientService: PatientService ) { }
 
   ngOnInit() {
     this.loadPatients();
+    
   }
-
-
+  
   loadPatients() {
-    this.employeeService.getEmployees().subscribe((employees: Employee[]) => {
-        //this.employees = employees;
-        this.patients = employees;
+    this.patientService.getPatients().subscribe((patients: Patient[]) => {
+        this.patients = patients;
     });
-  }
+  } 
 }
