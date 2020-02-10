@@ -20,10 +20,9 @@ export class EmployeeComponent implements OnInit {
     this.http.get('http://localhost:5000/api/employees').subscribe(response => 
     { 
       this.employees = response;
-    }, error => 
-    {
+    }, error => {
       console.log(error);
-    }) 
+    }); 
 
   }
 

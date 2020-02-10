@@ -1,0 +1,185 @@
+[
+    {
+      "Username": "Shawna",
+      "LastActive": "2020-01-30",
+      "Phone": "(921) 454-2922",
+      "City": "oslo",
+      "Country": "norway",
+      "PhotoUrl": "https://randomuser.me/api/portraits/women/61.jpg",
+      "Patients": [
+        {
+          "Name": "Harmon",
+          "DateOfBirth": "1978-12-28",
+          "LastActive": "2017-02-16",
+          "DepartmentId": 1,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/73.jpg"
+        },
+        {
+          "Name": "Potts",
+          "DateOfBirth": "1981-10-27",
+          "LastActive": "2020-02-01",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/80.jpg"
+        },
+        {
+          "Name": "Pratt",
+          "DateOfBirth": "1969-02-07",
+          "LastActive": "2019-03-23",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/21.jpg"
+        }
+      ]
+    },
+    {
+      "Username": "Adele",
+      "LastActive": "2020-02-03",
+      "Phone": "(808) 434-2505",
+      "City": "oslo",
+      "Country": "norway",
+      "PhotoUrl": "https://randomuser.me/api/portraits/women/90.jpg",
+      "Patients": [
+        {
+          "Name": "Henson",
+          "DateOfBirth": "1985-07-31",
+          "LastActive": "2017-01-02",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/60.jpg"
+        },
+        {
+          "Name": "Bates",
+          "DateOfBirth": "1965-08-14",
+          "LastActive": "2017-03-08",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+        },
+        {
+          "Name": "Hubbard",
+          "DateOfBirth": "1984-03-10",
+          "LastActive": "2017-04-02",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/84.jpg"
+        },
+        {
+          "Name": "Gonzales",
+          "DateOfBirth": "1950-10-30",
+          "LastActive": "2017-02-23",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/88.jpg"
+        },
+        {
+          "Name": "Blackwell",
+          "DateOfBirth": "1959-07-09",
+          "LastActive": "2017-06-27",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/82.jpg"
+        }
+      ]
+    },
+    {
+      "Username": "Latisha",
+      "LastActive": "2017-03-02",
+      "Phone": "(975) 458-2572",
+      "City": "oslo",
+      "Country": "norway",
+      "PhotoUrl": "https://randomuser.me/api/portraits/women/85.jpg",
+      "Patients": [
+        {
+          "Name": "Delacruz",
+          "DateOfBirth": "1965-08-11",
+          "LastActive": "2017-03-26",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/75.jpg"
+        },
+        {
+          "Name": "Oneill",
+          "DateOfBirth": "1986-10-23",
+          "LastActive": "2017-03-30",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/18.jpg"
+        },
+        {
+          "Name": "Miller",
+          "DateOfBirth": "1958-03-27",
+          "LastActive": "2017-02-17",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+        },
+        {
+          "Name": "Spence",
+          "DateOfBirth": "1971-07-13",
+          "LastActive": "2017-05-18",
+          "DepartmentId": 1,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/49.jpg"
+        }
+      ]
+    },
+    {
+      "Username": "Adeline",
+      "LastActive": "2017-05-13",
+      "Phone": "(983) 450-3270",
+      "City": "oslo",
+      "Country": "norway",
+      "PhotoUrl": "https://randomuser.me/api/portraits/women/27.jpg",
+      "Patients": [
+        {
+          "Name": "Stokes",
+          "DateOfBirth": "1991-07-21",
+          "LastActive": "2017-04-14",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+        },
+        {
+          "Name": "Oneal",
+          "DateOfBirth": "1992-08-07",
+          "LastActive": "2017-08-07",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/80.jpg"
+        },
+        {
+          "Name": "Fernandez",
+          "DateOfBirth": "1966-01-24",
+          "LastActive": "2017-02-06",
+          "DepartmentId": 1,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/88.jpg"
+        },
+        {
+          "Name": "Slater",
+          "DateOfBirth": "1969-01-01",
+          "LastActive": "2017-05-31",
+          "DepartmentId": 1,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/13.jpg"
+        },
+        {
+          "Name": "Reed",
+          "DateOfBirth": "1991-02-11",
+          "LastActive": "2017-02-27",
+          "DepartmentId": 3,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/19.jpg"
+        }
+      ]
+    },
+    {
+      "Username": "Constance",
+      "LastActive": "2017-03-05",
+      "Phone": "(949) 592-3015",
+      "City": "oslo",
+      "Country": "norway",
+      "PhotoUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "Patients": [
+        {
+          "Name": "Armstrong",
+          "DateOfBirth": "1955-05-05",
+          "LastActive": "2017-07-17",
+          "DepartmentId": 1,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/17.jpg"
+        },
+        {
+          "Name": "Harper",
+          "DateOfBirth": "1983-01-28",
+          "LastActive": "2017-05-10",
+          "DepartmentId": 2,
+          "PhotoUrl": "https://randomuser.me/api/portraits/men/24.jpg"
+        }
+      ]
+    }
+  ]
