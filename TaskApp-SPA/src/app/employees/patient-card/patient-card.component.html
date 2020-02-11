@@ -1,11 +1,11 @@
 <div class="card mb-4">
     <div class="card-img-wrapper">
-      <img class="card-img-top" src="{{patient.photoUrl}}" alt="{{patient.username}}" [routerLink]="['/Patients/', patient.id]">
+      <img class="card-img-top" src="{{patient.photoUrl}}" alt="{{patient.name}}" [routerLink]="['/Patients/', patient.id]">
     </div>  
     <div class="card-body p-1">
       <h6 class="card-title text-center mb-1">
-          {{patient.username}}
+          {{patient.name}}
       </h6>
-      <p class="card-text text-muted text-center"> Patients: {{patient.id}}</p>
+      <p class="card-text text-muted text-center">{{patient.dateOfBirth | date: 'mediumDate' }}</p>
     </div>
   </div>

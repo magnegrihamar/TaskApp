@@ -14,12 +14,7 @@ import { PatientService } from '../../_services/patient.service';
 export class EmployeeDetailComponent implements OnInit {
   employee: Employee;
   patients: Patient[];
-  patient: Patient;
-  
-  
 
-  patientList: Array<{ patientId: number, patientName: string }> = [];
- 
   constructor( private employeeService: EmployeeService, private patientService: PatientService, private route: ActivatedRoute ) { }
 
   ngOnInit() {
@@ -34,15 +29,20 @@ export class EmployeeDetailComponent implements OnInit {
   }
 
   loadPatients() {
-      //this.patientService.getPatients().subscribe((patients: Patient[]) => {
-      //  this.patients = patients;
-      this.patientService.getPatient(+this.route.snapshot.params['id']).subscribe((patient: Patient) => {
-        this.patient = patient;
-
-        if(this.patient.employeeID == this.employee.id )
-        {
+      this.patientService.getPatients().subscribe((patients: Patient[]) => {
+        
+        this.patients = patients;
+        //this.setEmpleyeesPatients();
+        
+      //this.patientService.getPatient(+this.route.snapshot.params['id']).subscribe((patient: Patient) => {
+        //this.patient = patient;
+        
+        //if(this.patient.employeeID == this.employee.id )
+        //{
           //this.patients.push( this.patient.employeeID );
-        }
+         
+       // }
     });
   }
+
 }

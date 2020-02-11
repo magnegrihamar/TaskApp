@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http'
 import { RouterModule } from '@angular/router';
-//import {TimeAgoPipe} from 'time-ago-pipe';
+//import { TimeAgoPipe } from 'time-ago-pipe';
 
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
@@ -24,7 +24,7 @@ import { PatientCardComponent } from './employees/patient-card/patient-card.comp
       PatientCardComponent,
       EmployeeCardComponent,
       EmployeeDetailComponent,
-     // TimeAgoPipe
+   //   TimeAgoPipe
    ],
    imports: [
       BrowserModule,

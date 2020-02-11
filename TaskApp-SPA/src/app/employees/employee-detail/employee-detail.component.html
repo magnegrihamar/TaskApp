@@ -16,7 +16,7 @@
 
               <div>
                 <strong>Last Active:</strong>
-              <p>{{employee?.lastActive}}</p>
+              <p>{{employee?.lastActive | date: 'mediumDate' }}</p>
               </div>
             </div>
             <div class="card-footer">
@@ -26,10 +26,11 @@
               
         </div>
         <div class="col-sm-8">
-          <strong>Pasients:</strong>
-              
-          <div *ngFor="let patient of patients" class="col-lg-2 col-md-3 col-sm-6">
+          <strong>Pasients:</strong>   
+          <div *ngFor="let patient of patients" class="col-lg-3 col-md-3 col-sm-6">
+            <div *ngIf="patient.employeeID === employee.id">
             <app-patient-card [patient]="patient"></app-patient-card>
+          </div>
           </div>
       
         </div>
