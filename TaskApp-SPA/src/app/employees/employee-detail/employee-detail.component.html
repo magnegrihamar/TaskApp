@@ -3,6 +3,7 @@
 <br>
 <br>
 <br>
+<h1>{{employee.username}}</h1>
 <div class="container mt-4">
     <div class="row">
         <div class="col-sm-4">
@@ -25,8 +26,7 @@
           </div>
               
         </div>
-        <div class="col-sm-8">
-          <strong>Pasients:</strong>   
+        <div class="col-sm-8">   
           <div *ngFor="let patient of patients" class="col-lg-3 col-md-3 col-sm-6">
             <div *ngIf="patient.employeeID === employee.id">
             <app-patient-card [patient]="patient"></app-patient-card>

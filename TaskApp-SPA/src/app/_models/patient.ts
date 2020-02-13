@@ -4,4 +4,5 @@ export interface Patient {
     photoUrl: string;
     dateOfBirth: Date;
     employeeID: number;
+    age: number;
 }

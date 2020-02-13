@@ -9,6 +9,7 @@ namespace TaskApp.API.Models
         public DateTime DateOfBirth { get; set; }
         public string PhotoUrl { get; set; }
         public int EmployeeID { get; set; }
+        public int Age { get; set; }
         
     }
 }

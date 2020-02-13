@@ -9,5 +9,6 @@ namespace TaskApp.API.Models {
         public int DepartmentId { get; set; }
         public string PhotoUrl { get; set; }
         public int EmployeeID { get; set; }
+        //public int age {get; set; }
     }
 }

@@ -14,10 +14,29 @@ namespace TaskApp.API.Data
         {
             /* Implement method to fetch data from https://weisstech.no/api/data.json */
             throw new NotImplementedException();
-            
+            /*
+            if (!context.Employees.Any() )
+            {
+                var data = System.IO.File.ReadAllText("Data/EmployeeSeedData.json");
+                var employees = JsonConvert.DeserializeObject<List<Employee>>(data);
+                foreach( Employee employee in employees )
+                {
+                    employee.Username = employee.Username.ToLower();
+                    context.Employees.Add(employee);
+                } 
+                context.SaveChanges();  
+
+            } 
+            return context.;
+
+            */    
         }
+        //var patients = await this.context.Patients.ToListAsync();
+          //  return patients;
+            
     }
 }
+
             
 /*
 

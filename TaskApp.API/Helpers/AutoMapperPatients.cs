@@ -8,8 +8,9 @@ namespace TaskApp.API.Helpers
     {
         public AutoMapperPatients()
         {
-            CreateMap<Patient, PatientForListDto>();
-               //.ForMember(dest => dest.EmployeeID, opt => opt.MapFrom(src => src.));
+            CreateMap<Patient, PatientForListDto>()
+               .ForMember(dest => dest.Age, opt => 
+               opt.MapFrom(src => src.DateOfBirth.CalculatePasientAge() ) );
             //CreateMap<Patient, PatientForDetailedListDto>();
 
         }
